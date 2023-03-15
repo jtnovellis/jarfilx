@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 body {
-  @apply bg-zinc-900 overflow-x-hidden text-white h-full
+  @apply bg-zinc-900 overflow-x-hidden text-white h-full;
 }
 
 #__next {
-  @apply h-full
+  @apply h-full;
 }
 
 html {
-  @apply h-full
+  @apply h-full;
 }
