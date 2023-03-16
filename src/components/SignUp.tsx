@@ -17,7 +17,9 @@ export default function SignUp({ handleShowSignIn }: SignUpProps) {
     const email = emailRef.current?.value;
     const password = passwordRef.current?.value;
     const remember = checkRef.current?.checked;
-    alert(`Email: ${email}, Password: ${password}, Remmember: ${remember}`);
+    alert(
+      `Email: ${email}, Password: ${password}, Remmember: ${remember} Username: ${username}`,
+    );
   };
 
   return (
